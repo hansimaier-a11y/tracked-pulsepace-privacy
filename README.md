@@ -1,94 +1,53 @@
-# tracked – pulse&pace  
+# Tracked – pulse&pace
+
 Privacy Policy & Support
 
-_Last updated: 1 December 2025_
+_Last updated: 9 November 2026_
 
-## 1. About this app
+## 1. Who is responsible
 
-“tracked – pulse&pace” is a training log app that helps you track your swim and strength workouts and, optionally, import workouts from Apple Health (HealthKit).
+Tracked – pulse&pace is a training log for swimming and strength workouts.
 
-The app is developed and operated by:
+The app is developed and operated by **Laurin Korber-Perner**. For privacy questions and requests, email [lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com).
 
-**Laurin Korber-Perner**  
-Email: [lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com)
+## 2. Training data and Apple Health
 
----
+Tracked does not require a user account. Training data you enter is stored on your device. Depending on your device settings, locally stored data may be included in your personal iCloud backup.
 
-## 2. Data collection
+With your permission, Tracked can read workout data from Apple Health (HealthKit), such as workout type, duration, distance, energy and related heart-rate data. The app uses this information to display workouts, statistics and heart-rate graphs. You can change or revoke Apple Health access in your device settings.
 
-### 2.1 No own servers, no user accounts
+Tracked does not send training or Apple Health data to the developer’s feedback service or use it for advertising.
 
-The app does **not** use its own backend server and does **not** create user accounts.  
-All training data you enter is stored **locally on your device** (and, if you enable it, in your personal iCloud via Apple).
+## 3. Optional app feedback
 
-We do not:
+Tracked may ask “Do you like this app?” once per installation for a feedback campaign. If you select **Yes** or **No**, the app sends your answer, the campaign identifier and a randomly generated identifier for that submission. The submission identifier prevents duplicate counting if delivery is retried. It is not a persistent device or account identifier.
 
-- run our own tracking or analytics server
-- sell or share your data with third parties
-- use advertising SDKs
+If you select **Skip**, no feedback is sent. Your choice does not affect access to any app feature. If you answer while offline, the app saves the pending response locally and retries during later use. It removes the pending response after delivery is confirmed or the service confirms that the campaign has closed.
 
-### 2.2 Apple Health (HealthKit)
+We use the responses to understand overall satisfaction and improve Tracked. Where personal data is processed for this purpose, the legal basis is our legitimate interest in evaluating and improving the app under Article 6(1)(f) GDPR. We do not link responses to training profiles or use them for advertising or cross-app tracking.
 
-The app can optionally read data from **Apple Health** (HealthKit), for example:
+## 4. Hosting and retention
 
-- workouts (type, duration, distance, energy)
-- heart rate data related to workouts (if available)
+Cloudflare, Inc. provides the feedback service through Cloudflare Workers and D1. The feedback database is configured with EU jurisdiction. Cloudflare may process technical connection and security data, including IP addresses, to deliver and protect the service. The feedback application itself does not log IP addresses, request headers or response contents.
 
-Important:
+Some network or security processing may take place outside the European Economic Area. Where applicable, international transfers are subject to the safeguards described in the [Cloudflare Data Processing Addendum](https://www.cloudflare.com/cloudflare-customer-dpa/), including standard contractual clauses for restricted transfers. You can contact us for information about those safeguards. See also [Cloudflare’s Privacy Policy](https://www.cloudflare.com/privacypolicy/).
 
-- Access to Apple Health is **optional** and requires your **explicit permission**.
-- You can change or revoke this permission at any time in the iOS **Settings → Health → Apps → tracked – pulse&pace**.
-- Health data is used only to:
-  - display your workouts in the app’s calendar and statistics
-  - show heart-rate graphs and related metrics
-- Health data is **not** sent to our own servers.
+The current campaign stops accepting answers on **30 November 2027 at 00:00 UTC**. After it closes, a daily cleanup replaces individual responses and submission identifiers with aggregate totals. Deleted records may remain in D1 recovery snapshots for up to **seven days** under the current Workers Free plan. Aggregate totals contain no submission identifiers and are kept until manually deleted. Retention of any technical data handled by Cloudflare depends on its operational and security purposes and applicable obligations.
 
-We comply with Apple’s HealthKit and App Store rules: Health data from HealthKit is **never** used for advertising or data reselling.
+## 5. Your choices and rights
 
----
+You can view, edit and delete your training entries in the app and manage Apple Health permissions in your device settings. Uninstalling the app removes its locally stored data from the device. It does not erase a response already received by the feedback service.
 
-## 3. Data storage and security
+Where the GDPR applies, you may have rights of access, rectification, erasure, restriction and, where applicable, data portability. You may object to processing based on legitimate interests and lodge a complaint with a competent data protection authority.
 
-- Your training data is stored **locally** on your device.
-- If you enable iCloud backup/sync on your iPhone, the data may be stored encrypted on Apple’s iCloud servers, under your Apple ID, according to Apple’s privacy policy.
+To make a request, email [lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com). Feedback is not tied to a user account, so we may be unable to identify a particular submission. Once responses have been aggregated, an individual response cannot be recovered from the totals.
 
-We recommend protecting your device with a passcode / Face ID / Touch ID and keeping your iOS version up to date.
+## 6. Children’s privacy
 
----
+Tracked is not directed at children under 13. If you are a parent or guardian and believe a child has provided personal data through the app, please contact us.
 
-## 4. Children’s privacy
+## 7. Support and updates to this policy
 
-The app is not directed at children under 13 years of age.  
-If you are a parent or guardian and believe a child has provided us with personal data, please contact us at  
-[lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com).
+For support, bug reports or questions about this policy, email [lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com).
 
----
-
-## 5. Your rights
-
-Because we do not run our own servers or user accounts, most of your data can be managed directly on your device:
-
-- **View / edit / delete training data** directly in the app.
-- **Delete the app** to remove all locally stored data from your device.
-
-If you have questions about your data in the app, you can contact us via email.
-
----
-
-## 6. Contact
-
-If you have any questions about this Privacy Policy, need support with the app, or want to report a bug, please contact:
-
-**Email:** [lkorber.perner@gmail.com](mailto:lkorber.perner@gmail.com)
-
-We usually reply as soon as reasonably possible.
-
----
-
-## 7. Changes to this policy
-
-We may update this Privacy Policy from time to time, for example when new features are added.
-
-The current version will always be available at:
-
-`https://hansimaier-a11y.github.io/tracked-privacy/`
+The current version of this policy is available at [tracked-pulsepace-privacy](https://hansimaier-a11y.github.io/tracked-pulsepace-privacy/).
